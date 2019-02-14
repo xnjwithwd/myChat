@@ -1,0 +1,38 @@
+{
+  "name": "wechat",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./app.js",
+    "ngrok": "./bin/ngrok.sh"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "heredoc": "^1.3.1",
+    "http-errors": "~1.6.2",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "koa-views": "^6.1.5",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "morgan": "~1.9.0",
+    "mysql": "^2.16.0",
+    "pug": "^2.0.3",
+    "raw-body": "^2.3.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "sha1": "^1.1.1",
+    "xml2js": "^0.4.19"
+  },
+  "description": "wechat learn",
+  "main": "app.js",
+  "devDependencies": {},
+  "keywords": [
+    "wechat"
+  ],
+  "author": "xnj",
+  "license": "MIT"
+}
